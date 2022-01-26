@@ -1,11 +1,12 @@
 import "./App.css";
 import Box from "./components/Box/Box";
-import Form from "./components/Form/Form";
+
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Home />
     </div>
   );
 }
