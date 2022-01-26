@@ -1,4 +1,4 @@
-Practice <Grid> using mui/material 
+Practice `<Grid>` using mui/material 
 
 Components:
 - Box: MUI sample version
