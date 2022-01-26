@@ -1,11 +1,14 @@
-import Header from "../../components/Header/Header";
-import Form from "../../components/Form/Form";
+import './Home.css';
+import Header from '../../components/Header/Header';
+import Banner from '../../components/Banner/Banner';
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <Form />
+      <div className="content">
+        <Banner />
+      </div>
     </div>
   );
 };

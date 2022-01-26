@@ -1,7 +1,7 @@
-import "./App.css";
-import Box from "./components/Box/Box";
+import './App.css';
+import Box from './components/Box/Box';
 
-import Home from "./pages/Home/Home";
+import Home from './pages/Home/Home';
 
 function App() {
   return (

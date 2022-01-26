@@ -1,5 +1,5 @@
-const Link = ({ value }) => {
+const CustomLInk = ({ value }) => {
   return <p>{value}</p>;
 };
 
-export default Link;
+export default CustomLInk;
