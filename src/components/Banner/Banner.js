@@ -1,4 +1,4 @@
-import { Grid, Box, Stack } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 import BannerLink from './BannerLink/BannerLink';
 
 const Banner = () => {

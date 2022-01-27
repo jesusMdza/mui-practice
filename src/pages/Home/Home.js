@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import './Home.css';
 import Header from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
@@ -6,9 +7,9 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="content">
+      <Container sx={{ width: '50%' }}>
         <Banner />
-      </div>
+      </Container>
     </div>
   );
 };
