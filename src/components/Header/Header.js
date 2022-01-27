@@ -1,5 +1,5 @@
 import './Header.css';
-import { Grid, Box, Paper } from '@mui/material';
+import { Grid, Stack } from '@mui/material';
 
 import CustomLink from './CustomLink/CustomLink';
 import ProductLink from './ProductLink/ProductLink';
@@ -50,12 +50,12 @@ const Header = () => {
           </Grid>
         </Grid>
 
-        <Grid justifyContent="center" container spacing={3}>
-          {linksProducts.map((value) => (
-            <Grid key={value} item>
+        <Grid justifyContent="center" container>
+          <Stack alignItems="center" direction="row" spacing={3}>
+            {linksProducts.map((value) => (
               <CustomLink value={value} />
-            </Grid>
-          ))}
+            ))}
+          </Stack>
         </Grid>
       </Grid>
     </div>
